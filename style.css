@@ -1,0 +1,72 @@
+/*- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: hsl(30, 38%, 92%);
+}
+.card{
+    height: 425px;
+    width: 550px;
+    border: none;
+    display: flex;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+img{
+    border-radius: 15px 0 0 15px;
+    width: 50%;
+}
+.section{
+    margin: 5px 20px 20px 20px;
+}
+p{
+    opacity: 50%;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{ 
+    font-weight: 700;
+}
+h5{
+    font-family:  'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    opacity: 50%;
+}
+.one{
+    
+    font-size: 25px;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+.two{
+    margin-left: 15px;
+    opacity: 50%;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+button{
+    margin: 15% auto 0 ;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    cursor: pointer;
+    
+}
+
+footer{
+    font-family: sans-serif;
+}
